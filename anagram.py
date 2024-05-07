@@ -13,8 +13,8 @@ class Solution(object):
         :type t: str
         :rtype: bool
         """
-        s = s.sort()
-        t = t.sort()
+        s = ''.join(sorted(s))
+        t = ''.join(sorted(t))
 
         print(True if s == t else False)
 
